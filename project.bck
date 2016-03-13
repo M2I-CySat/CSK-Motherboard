@@ -10,4 +10,24 @@ D Quad NAND2
 K TTL nand2
 $ENDCMP
 #
+$CMP AP7313
+D 150mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23
+K 150mA LDO Regulator Fixed Positive
+$ENDCMP
+#
+$CMP FM25V20A-G
+D FRAM SPI 2MBit
+K fram memory spi
+$ENDCMP
+#
+$CMP PCA9517A
+D I2C Buffer With Enable
+K i2c buffer
+$ENDCMP
+#
+$CMP TP
+D Test Point
+K tp test point
+$ENDCMP
+#
 #End Doc Library

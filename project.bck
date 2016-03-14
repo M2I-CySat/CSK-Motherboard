@@ -25,6 +25,11 @@ D I2C Buffer With Enable
 K i2c buffer
 $ENDCMP
 #
+$CMP STM32F411-LQFP64
+D ARM Cortex M4 Microcontroller
+K arm cortex microcontroller mcu
+$ENDCMP
+#
 $CMP TP
 D Test Point
 K tp test point

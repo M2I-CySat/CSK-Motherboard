@@ -2632,80 +2632,10 @@ $EndComp
 Wire Wire Line
 	6000 10400 6000 10500
 Connection ~ 6000 10400
-Wire Wire Line
-	8050 7100 8350 7100
-Wire Wire Line
-	8050 7100 8050 6900
-Wire Wire Line
-	8350 7000 8300 7000
-Wire Wire Line
-	8300 7000 8300 6900
-$Comp
-L +3.3V #PWR041
-U 1 1 56F839C7
-P 8050 6900
-F 0 "#PWR041" H 8050 6750 50  0001 C CNN
-F 1 "+3.3V" H 8050 7040 50  0000 C CNN
-F 2 "" H 8050 6900 60  0000 C CNN
-F 3 "" H 8050 6900 60  0000 C CNN
-	1    8050 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR042
-U 1 1 56F83D7F
-P 8300 6900
-F 0 "#PWR042" H 8300 6650 50  0001 C CNN
-F 1 "GND" H 8300 6750 50  0000 C CNN
-F 2 "" H 8300 6900 60  0000 C CNN
-F 3 "" H 8300 6900 60  0000 C CNN
-	1    8300 6900
-	-1   0    0    1   
-$EndComp
-Text Label 8350 7300 2    60   ~ 0
-SYS_SDA
-Text Label 8350 7200 2    60   ~ 0
-SYS_SCL
-Text Label 8350 7400 2    60   ~ 0
-RADIO_TX
-Text Label 8350 7500 2    60   ~ 0
-RADIO_RX
 Text Label 1450 2050 0    60   ~ 0
 SYS_RESET_P
 Text Label 1450 4300 0    60   ~ 0
 SYS_RESET_S
-Text Label 8350 7600 2    60   ~ 0
-SYS_RESET
-Text Label 8350 7700 2    60   ~ 0
-SYS_SPI_NSS
-Text Label 8350 7800 2    60   ~ 0
-SYS_SPI_SCK
-Text Label 8350 7900 2    60   ~ 0
-SYS_SPI_MISO
-Text Label 8350 8000 2    60   ~ 0
-SYS_SPI_MOSI
-Text Label 9850 7200 2    60   ~ 0
-SPI2_NSS
-Text Label 9850 7300 2    60   ~ 0
-SPI2_SCK
-Text Label 9850 7400 2    60   ~ 0
-SPI2_MISO
-Text Label 9850 7500 2    60   ~ 0
-SPI2_MOSI
-Text Label 8350 8400 2    60   ~ 0
-GPIO1
-Text Label 8350 8500 2    60   ~ 0
-GPIO2
-Text Label 8350 8600 2    60   ~ 0
-GPIO3
-Text Label 8350 8700 2    60   ~ 0
-GPIO4
-Text Label 8350 8800 2    60   ~ 0
-GPIO5
-Text Label 8350 8900 2    60   ~ 0
-GPIO6
-Text Label 8350 9000 2    60   ~ 0
-GPIO7
 Text Label 2800 1100 0    60   ~ 0
 I2C2_SCL
 Text Label 2800 3350 0    60   ~ 0
@@ -2714,89 +2644,8 @@ Text Label 2800 2500 0    60   ~ 0
 I2C2_SDA
 Text Label 2800 4750 0    60   ~ 0
 I2C3_SDA
-Text Label 8350 8200 2    60   ~ 0
-I2C2_SDA
-Text Label 8350 8100 2    60   ~ 0
-I2C2_SCL
-Text Label 8350 8300 2    60   ~ 0
-GPIO0
-Text Label 8350 9300 2    60   ~ 0
-GPIO10
-Text Label 8350 9400 2    60   ~ 0
-GPIO11
-Text Label 8350 9500 2    60   ~ 0
-GPIO12
-Text Label 8350 9600 2    60   ~ 0
-GPIO13
-Text Label 8350 9700 2    60   ~ 0
-GPIO14
-Text Label 8350 9800 2    60   ~ 0
-GPIO15
-Text Label 8350 9200 2    60   ~ 0
-GPIO9
-Text Label 8350 9100 2    60   ~ 0
-GPIO8
-Text Notes 8700 6650 2    60   ~ 0
-SHARED/PRIMARY
-Text Notes 10150 6650 2    60   ~ 0
-SECONDARY ONLY
-Wire Wire Line
-	9550 7100 9850 7100
-Wire Wire Line
-	9550 7100 9550 6900
-Wire Wire Line
-	9850 7000 9800 7000
-Wire Wire Line
-	9800 7000 9800 6900
-$Comp
-L GND #PWR043
-U 1 1 56FAD746
-P 9800 6900
-F 0 "#PWR043" H 9800 6650 50  0001 C CNN
-F 1 "GND" H 9800 6750 50  0000 C CNN
-F 2 "" H 9800 6900 60  0000 C CNN
-F 3 "" H 9800 6900 60  0000 C CNN
-	1    9800 6900
-	-1   0    0    1   
-$EndComp
-Text Label 9850 7600 2    60   ~ 0
-I2C3_SCL
-Text Label 9850 7700 2    60   ~ 0
-I2C3_SDA
-Text Label 9850 7900 2    60   ~ 0
-SGPIO1
-Text Label 9850 8000 2    60   ~ 0
-SGPIO2
-Text Label 9850 8100 2    60   ~ 0
-SGPIO3
-Text Label 9850 8200 2    60   ~ 0
-SGPIO4
-Text Label 9850 8300 2    60   ~ 0
-SGPIO5
-Text Label 9850 8400 2    60   ~ 0
-SGPIO6
-Text Label 9850 8500 2    60   ~ 0
-SGPIO7
-Text Label 9850 7800 2    60   ~ 0
-SGPIO0
-Text Label 9850 8800 2    60   ~ 0
-SGPIO10
-Text Label 9850 8900 2    60   ~ 0
-SGPIO11
-Text Label 9850 9000 2    60   ~ 0
-SGPIO12
-Text Label 9850 9100 2    60   ~ 0
-SGPIO13
-Text Label 9850 9200 2    60   ~ 0
-SGPIO14
-Text Label 9850 9300 2    60   ~ 0
-SGPIO15
-Text Label 9850 8700 2    60   ~ 0
-SGPIO9
-Text Label 9850 8600 2    60   ~ 0
-SGPIO8
-Text Label 9850 9400 2    60   ~ 0
-SGPIO16
+Text Notes 8300 6650 2    60   ~ 0
+H1
 Text Label 1450 750  0    60   ~ 0
 GPIO0
 Text Label 1450 850  0    60   ~ 0
@@ -2866,17 +2715,6 @@ F 3 "" H 4100 10600 60  0000 C CNN
 	1    4100 10600
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR045
-U 1 1 56FC29CE
-P 9550 6900
-F 0 "#PWR045" H 9550 6750 50  0001 C CNN
-F 1 "+5V" H 9550 7040 50  0000 C CNN
-F 2 "" H 9550 6900 60  0000 C CNN
-F 3 "" H 9550 6900 60  0000 C CNN
-	1    9550 6900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13350 8900 13400 8900
 $Comp
@@ -2925,28 +2763,6 @@ Text Label 2800 4150 0    60   ~ 0
 MEM_NWP_S
 Text Label 2800 4250 0    60   ~ 0
 MEM_NHOLD_S
-$Comp
-L CONN_01X29 P3
-U 1 1 56FE86BF
-P 8550 8400
-F 0 "P3" H 8550 9900 50  0000 C CNN
-F 1 "CONN_01X29" V 8650 8400 50  0000 C CNN
-F 2 "" H 8550 8400 60  0000 C CNN
-F 3 "" H 8550 8400 60  0000 C CNN
-	1    8550 8400
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X25 P4
-U 1 1 56FE90B2
-P 10050 8200
-F 0 "P4" H 10050 9500 50  0000 C CNN
-F 1 "CONN_01X25" V 10150 8200 50  0000 C CNN
-F 2 "" H 10050 8200 60  0000 C CNN
-F 3 "" H 10050 8200 60  0000 C CNN
-	1    10050 8200
-	1    0    0    -1  
-$EndComp
 Text Label 4150 800  0    60   ~ 0
 GPIO3
 Text Label 4150 900  0    60   ~ 0
@@ -3001,4 +2817,51 @@ Wire Wire Line
 	7150 6150 6850 6150
 Connection ~ 2900 5850
 Connection ~ 2900 6100
+$Comp
+L CONN_02X03 P?
+U 1 1 581E4EE0
+P 4750 5250
+F 0 "P?" H 4750 5450 50  0000 C CNN
+F 1 "CONN_02X03" H 4750 5050 50  0000 C CNN
+F 2 "" H 4750 4050 50  0000 C CNN
+F 3 "" H 4750 4050 50  0000 C CNN
+	1    4750 5250
+	1    0    0    -1  
+$EndComp
+Text Label 4500 5150 2    60   ~ 0
+RBF_NC
+Text Label 4500 5250 2    60   ~ 0
+RBF_NO
+Text Label 4500 5350 2    60   ~ 0
+RBF_C
+Text Label 5000 5150 0    60   ~ 0
+DEP_NC
+Text Label 5000 5250 0    60   ~ 0
+DEP_NO
+Text Label 5000 5350 0    60   ~ 0
+DEP_C
+$Comp
+L CONN_02X26 P?
+U 1 1 581EA932
+P 8250 8100
+F 0 "P?" H 8250 9450 50  0000 C CNN
+F 1 "CONN_02X26" V 8250 8100 50  0000 C CNN
+F 2 "" H 8250 7400 50  0000 C CNN
+F 3 "" H 8250 7400 50  0000 C CNN
+	1    8250 8100
+	1    0    0    -1  
+$EndComp
+Text Notes 9700 6650 2    60   ~ 0
+H2
+$Comp
+L CONN_02X26 P?
+U 1 1 581EB706
+P 9650 8100
+F 0 "P?" H 9650 9450 50  0000 C CNN
+F 1 "CONN_02X26" V 9650 8100 50  0000 C CNN
+F 2 "" H 9650 7400 50  0000 C CNN
+F 3 "" H 9650 7400 50  0000 C CNN
+	1    9650 8100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

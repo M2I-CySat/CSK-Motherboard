@@ -17,7 +17,7 @@ $ENDCMP
 #
 $CMP FM25V20A-G
 D FRAM SPI 2MBit
-K fram memory spi
+K fram memory spi soic-8 soic soic8
 $ENDCMP
 #
 $CMP PCA9517A

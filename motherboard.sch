@@ -1977,7 +1977,7 @@ Text Label 2800 2500 0    60   ~ 0
 I2C2_SDA
 Text Label 2800 4750 0    60   ~ 0
 I2C3_SDA
-Text Notes 9350 8150 2    60   ~ 0
+Text Notes 9200 8150 2    60   ~ 0
 H1
 Text Label 1450 750  0    60   ~ 0
 GPIO0
@@ -2026,9 +2026,9 @@ SGPIO12
 Text Label 4150 4800 0    60   ~ 0
 SGPIO13
 Text Label 2250 9050 0    60   ~ 0
-GPIO15
+GPIO13
 Text Label 5300 9050 0    60   ~ 0
-SGPIO16
+SGPIO14
 $Comp
 L +5V #PWR040
 U 1 1 56FC214F
@@ -2123,25 +2123,25 @@ $EndComp
 $Comp
 L CONN_02X26 H1
 U 1 1 581EA932
-P 9300 9600
-F 0 "H1" H 9300 10950 50  0000 C CNN
-F 1 "CONN_02X26" V 9300 9600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x26" H 9300 8900 50  0001 C CNN
-F 3 "" H 9300 8900 50  0000 C CNN
-	1    9300 9600
+P 9150 9600
+F 0 "H1" H 9150 10950 50  0000 C CNN
+F 1 "CONN_02X26" V 9150 9600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x26" H 9150 8900 50  0001 C CNN
+F 3 "" H 9150 8900 50  0000 C CNN
+	1    9150 9600
 	1    0    0    -1  
 $EndComp
-Text Notes 10750 8150 2    60   ~ 0
+Text Notes 10800 8150 2    60   ~ 0
 H2
 $Comp
 L CONN_02X26 H2
 U 1 1 581EB706
-P 10700 9600
-F 0 "H2" H 10700 10950 50  0000 C CNN
-F 1 "CONN_02X26" V 10700 9600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x26" H 10700 8900 50  0001 C CNN
-F 3 "" H 10700 8900 50  0000 C CNN
-	1    10700 9600
+P 10750 9600
+F 0 "H2" H 10750 10950 50  0000 C CNN
+F 1 "CONN_02X26" V 10750 9600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x26" H 10750 8900 50  0001 C CNN
+F 3 "" H 10750 8900 50  0000 C CNN
+	1    10750 9600
 	1    0    0    -1  
 $EndComp
 Text Label 7900 2350 2    60   ~ 0
@@ -2150,11 +2150,11 @@ Text Label 9800 2350 0    60   ~ 0
 RADIO_TR_S
 Text Label 8850 2350 3    60   ~ 0
 RADIO_TR
-Text Label 7900 3100 2    60   ~ 0
+Text Label 7900 3050 2    60   ~ 0
 RADIO_RR_P
 Text Label 8850 3050 3    60   ~ 0
 RADIO_RR
-Text Label 9800 3100 0    60   ~ 0
+Text Label 9800 3050 0    60   ~ 0
 RADIO_RR_S
 $Comp
 L GND #PWR045
@@ -2223,9 +2223,9 @@ F 3 "" H 9350 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4150 3300 0    60   ~ 0
-SGPIO_4
+SGPIO4
 Text Label 4150 3400 0    60   ~ 0
-SGPIO_5
+SGPIO5
 Text Label 4150 1000 0    60   ~ 0
 GPIO3
 Text Label 4150 800  0    60   ~ 0
@@ -2254,35 +2254,34 @@ F 3 "" H 5950 1400 50  0000 C CNN
 	2    5950 1400
 	1    0    0    -1  
 $EndComp
-Text Label 9050 8350 2    60   ~ 0
+Text Label 8900 8350 2    60   ~ 0
 GPIO0
-Text Label 9050 8450 2    60   ~ 0
+Text Label 8900 8450 2    60   ~ 0
 GPIO2
-Text Label 9050 8550 2    60   ~ 0
+Text Label 8900 8550 2    60   ~ 0
 RADIO_TR
-Text Label 9050 8650 2    60   ~ 0
+Text Label 8900 8650 2    60   ~ 0
 GPIO4
-Text Label 9050 8750 2    60   ~ 0
+Text Label 8900 8750 2    60   ~ 0
 GPIO6
-Text Label 9050 8850 2    60   ~ 0
+Text Label 8900 8850 2    60   ~ 0
 GPIO8
-Text Label 9050 8950 2    60   ~ 0
+Text Label 8900 8950 2    60   ~ 0
 GPIO10
-Text Label 9050 9050 2    60   ~ 0
+Text Label 8900 9050 2    60   ~ 0
 GPIO12
-Text Label 9050 9150 2    60   ~ 0
+Text Label 8900 9150 2    60   ~ 0
 RADIO_RX
-Text Label 9050 9250 2    60   ~ 0
+Text Label 8900 9250 2    60   ~ 0
 I2C2_SDA
-Text Label 9050 9350 2    60   ~ 0
+Text Label 8900 9350 2    60   ~ 0
 SYS_SPI_SCK
-Text Label 9050 9450 2    60   ~ 0
+Text Label 8900 9450 2    60   ~ 0
 SYS_SPI_MOSI
-NoConn ~ 9050 9550
-NoConn ~ 9050 9650
-NoConn ~ 9050 9850
-NoConn ~ 9050 10250
-NoConn ~ 9050 10550
+NoConn ~ 8900 9550
+NoConn ~ 8900 9650
+NoConn ~ 8900 9850
+NoConn ~ 8900 10550
 $Comp
 L CONN_02X08 P1
 U 1 1 584332AB
@@ -2471,16 +2470,16 @@ Connection ~ 9800 5850
 Wire Wire Line
 	7150 6900 8350 6900
 Wire Wire Line
-	7100 4900 7100 7350
+	7150 4650 7150 7100
 Wire Wire Line
 	7150 6150 8350 6150
-Connection ~ 7100 7150
+Connection ~ 7150 6900
 Wire Wire Line
 	7150 5400 8350 5400
-Connection ~ 7100 6400
+Connection ~ 7150 6150
 Wire Wire Line
 	7150 4650 8350 4650
-Connection ~ 7100 5650
+Connection ~ 7150 5400
 Wire Wire Line
 	9650 5200 9250 5200
 Wire Wire Line
@@ -2947,8 +2946,6 @@ Connection ~ 8200 7250
 Wire Wire Line
 	8050 7250 8350 7250
 Wire Wire Line
-	8750 2350 8850 2350
-Wire Wire Line
 	9350 2850 9350 2650
 Wire Wire Line
 	8350 2650 8350 2850
@@ -2983,57 +2980,238 @@ Wire Wire Line
 	4450 5750 4450 5850
 Wire Wire Line
 	4450 5850 3900 5850
-Text Label 9050 9750 2    60   ~ 0
+Text Label 8900 9750 2    60   ~ 0
 SYS_RESET
-Text Label 9050 9950 2    60   ~ 0
+Text Label 8900 10050 2    60   ~ 0
 SGPIO9
-Text Label 9050 10050 2    60   ~ 0
+Text Label 8900 10150 2    60   ~ 0
 SGPIO11
-Text Label 9050 10150 2    60   ~ 0
+Text Label 8900 10250 2    60   ~ 0
 SGPIO13
-Text Label 9050 10350 2    60   ~ 0
+Text Label 8900 10350 2    60   ~ 0
 SYS_SDA
-Text Label 9050 10450 2    60   ~ 0
+Text Label 8900 10450 2    60   ~ 0
 SYS_SCL
-Text Label 9050 10650 2    60   ~ 0
+Text Label 8900 10650 2    60   ~ 0
 NBUFEN_PRI
-Text Label 9050 10750 2    60   ~ 0
+Text Label 8900 10750 2    60   ~ 0
 I2C2_SDA
-Text Label 9050 10850 2    60   ~ 0
+Text Label 8900 10850 2    60   ~ 0
 I2C2_SCL
-Text Label 9550 10850 0    60   ~ 0
-SGPIO8
-Text Label 9550 10750 0    60   ~ 0
-SGPIO7
-Text Label 9550 10650 0    60   ~ 0
+Text Label 9400 10850 0    60   ~ 0
+SGPIO6
+Text Label 9400 10750 0    60   ~ 0
+SGPIO5
+Text Label 9400 10650 0    60   ~ 0
 NBUFEN_SEC
-NoConn ~ 9550 10550
-NoConn ~ 9550 10450
-NoConn ~ 9550 10350
-NoConn ~ 9550 10250
-NoConn ~ 9550 10150
-Text Label 9550 8350 0    60   ~ 0
+NoConn ~ 9400 10550
+NoConn ~ 9400 10450
+NoConn ~ 9400 10350
+Text Label 9400 8350 0    60   ~ 0
 GPIO1
-Text Label 9550 8450 0    60   ~ 0
+Text Label 9400 8450 0    60   ~ 0
 GPIO3
-Text Label 9550 8550 0    60   ~ 0
+Text Label 9400 8550 0    60   ~ 0
 RADIO_RR
-Text Label 9550 8650 0    60   ~ 0
+Text Label 9400 8650 0    60   ~ 0
 GPIO5
-Text Label 9550 8750 0    60   ~ 0
+Text Label 9400 8750 0    60   ~ 0
 GPIO7
-Text Label 9550 8850 0    60   ~ 0
-GPIO(
-Text Label 9550 8950 0    60   ~ 0
+Text Label 9400 8850 0    60   ~ 0
+GPIO9
+Text Label 9400 8950 0    60   ~ 0
 GPIO11
-Text Label 9550 9050 0    60   ~ 0
+Text Label 9400 9050 0    60   ~ 0
 GPIO13
-Text Label 9550 9150 0    60   ~ 0
+Text Label 9400 9150 0    60   ~ 0
 RADIO_TX
-Text Label 9550 9250 0    60   ~ 0
+Text Label 9400 9250 0    60   ~ 0
 I2C2_SCL
-Text Label 9550 9350 0    60   ~ 0
+Text Label 9400 9350 0    60   ~ 0
 SYS_SPI_MISO
-Text Label 9550 9450 0    60   ~ 0
+Text Label 9400 9450 0    60   ~ 0
 SYS_SPI_NSS
+NoConn ~ 9400 9550
+NoConn ~ 9400 9650
+NoConn ~ 9400 9750
+NoConn ~ 9400 9850
+Text Label 9400 10050 0    60   ~ 0
+SGPIO10
+Text Label 9400 10150 0    60   ~ 0
+SGPIO12
+Text Label 10500 8350 2    60   ~ 0
+SGPIO0
+Text Label 10500 8450 2    60   ~ 0
+SGPIO2
+Text Label 10500 8550 2    60   ~ 0
+I2C3_SDA
+Text Label 10500 8650 2    60   ~ 0
+SGPIO4
+NoConn ~ 10500 8850
+NoConn ~ 10500 8950
+NoConn ~ 10500 9050
+NoConn ~ 10500 9250
+NoConn ~ 10500 9850
+NoConn ~ 10500 9950
+NoConn ~ 10500 10050
+NoConn ~ 10500 10150
+NoConn ~ 10500 10250
+NoConn ~ 10500 10350
+NoConn ~ 10500 10450
+NoConn ~ 10500 10550
+NoConn ~ 11000 8650
+NoConn ~ 11000 8750
+NoConn ~ 11000 8850
+NoConn ~ 11000 9050
+NoConn ~ 11000 9150
+NoConn ~ 11000 9250
+NoConn ~ 11000 9950
+NoConn ~ 11000 10050
+NoConn ~ 11000 10150
+NoConn ~ 11000 10250
+NoConn ~ 11000 10350
+NoConn ~ 11000 10450
+NoConn ~ 11000 10550
+Wire Wire Line
+	10300 8750 10500 8750
+Wire Wire Line
+	10450 8750 10450 10650
+Wire Wire Line
+	10450 9150 10500 9150
+Wire Wire Line
+	10450 9350 10500 9350
+Connection ~ 10450 9150
+Wire Wire Line
+	10300 8750 10300 8800
+Connection ~ 10450 8750
+$Comp
+L GND #PWR049
+U 1 1 5844E13A
+P 10300 8800
+F 0 "#PWR049" H 10300 8550 50  0001 C CNN
+F 1 "GND" H 10300 8650 50  0000 C CNN
+F 2 "" H 10300 8800 60  0000 C CNN
+F 3 "" H 10300 8800 60  0000 C CNN
+	1    10300 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 8950 11200 8950
+$Comp
+L GND #PWR050
+U 1 1 5844E529
+P 11200 9000
+F 0 "#PWR050" H 11200 8750 50  0001 C CNN
+F 1 "GND" H 11200 8850 50  0000 C CNN
+F 2 "" H 11200 9000 60  0000 C CNN
+F 3 "" H 11200 9000 60  0000 C CNN
+	1    11200 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 8950 11200 9000
+Wire Wire Line
+	11050 8950 11050 10650
+Wire Wire Line
+	11050 9350 11000 9350
+Connection ~ 11050 8950
+NoConn ~ 10500 9450
+NoConn ~ 11000 9450
+$Comp
+L +5V #PWR051
+U 1 1 5844FA31
+P 10300 9450
+F 0 "#PWR051" H 10300 9300 50  0001 C CNN
+F 1 "+5V" H 10300 9590 50  0000 C CNN
+F 2 "" H 10300 9450 60  0000 C CNN
+F 3 "" H 10300 9450 60  0000 C CNN
+	1    10300 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR052
+U 1 1 5844FF4E
+P 11200 9450
+F 0 "#PWR052" H 11200 9300 50  0001 C CNN
+F 1 "+5V" H 11200 9590 50  0000 C CNN
+F 2 "" H 11200 9450 60  0000 C CNN
+F 3 "" H 11200 9450 60  0000 C CNN
+	1    11200 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 9450 11200 9550
+Wire Wire Line
+	11200 9550 11000 9550
+Wire Wire Line
+	10300 9450 10300 9550
+Wire Wire Line
+	10300 9550 10500 9550
+$Comp
+L +3.3V #PWR053
+U 1 1 5845304F
+P 10100 9600
+F 0 "#PWR053" H 10100 9450 50  0001 C CNN
+F 1 "+3.3V" H 10100 9740 50  0000 C CNN
+F 2 "" H 10100 9600 60  0000 C CNN
+F 3 "" H 10100 9600 60  0000 C CNN
+	1    10100 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 9650 10100 9650
+Wire Wire Line
+	10100 9650 10100 9600
+$Comp
+L +3.3V #PWR054
+U 1 1 5845444B
+P 11400 9600
+F 0 "#PWR054" H 11400 9450 50  0001 C CNN
+F 1 "+3.3V" H 11400 9740 50  0000 C CNN
+F 2 "" H 11400 9600 60  0000 C CNN
+F 3 "" H 11400 9600 60  0000 C CNN
+	1    11400 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 9600 11400 9650
+Wire Wire Line
+	11400 9650 11000 9650
+Text Label 10500 10750 2    60   ~ 0
+SPI2_NSS
+Text Label 10500 10850 2    60   ~ 0
+SPI2_MISO
+Wire Wire Line
+	11050 10650 11000 10650
+Connection ~ 11050 9850
+Wire Wire Line
+	10450 10650 10500 10650
+Connection ~ 10450 9750
+Connection ~ 10450 9350
+Connection ~ 11050 9350
+Wire Wire Line
+	10500 9750 10450 9750
+Wire Wire Line
+	11000 9750 11050 9750
+Connection ~ 11050 9750
+Wire Wire Line
+	11000 9850 11050 9850
+Text Label 11000 8350 0    60   ~ 0
+SGPIO1
+Text Label 11000 8450 0    60   ~ 0
+SGPIO3
+Text Label 11000 8550 0    60   ~ 0
+I2C3_SCL
+Text Label 11000 10750 0    60   ~ 0
+SPI2_SCK
+Text Label 11000 10850 0    60   ~ 0
+SPI2_MOSI
+Wire Wire Line
+	8800 2350 8900 2350
+Text Label 9400 10250 0    60   ~ 0
+SGPIO14
+Text Label 8900 9950 2    60   ~ 0
+SGPIO7
+Text Label 9400 9950 0    60   ~ 0
+SGPIO8
 $EndSCHEMATC

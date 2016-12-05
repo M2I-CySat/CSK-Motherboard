@@ -274,12 +274,12 @@ $Comp
 L R R17
 U 1 1 56B9204C
 P 13100 6750
-F 0 "R17" V 13180 6750 50  0000 C CNN
+F 0 "R17" V 13000 6750 50  0000 C CNN
 F 1 "100K" V 13100 6750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 13030 6750 30  0001 C CNN
 F 3 "" H 13100 6750 30  0000 C CNN
 	1    13100 6750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R16
@@ -636,23 +636,23 @@ $Comp
 L R R8
 U 1 1 56E68F3A
 P 2000 5600
-F 0 "R8" V 2080 5600 50  0000 C CNN
+F 0 "R8" V 1900 5600 50  0000 C CNN
 F 1 "100K" V 2000 5600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 5600 30  0001 C CNN
 F 3 "" H 2000 5600 30  0000 C CNN
 	1    2000 5600
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L R R7
 U 1 1 56E690F6
 P 2000 5400
-F 0 "R7" V 2080 5400 50  0000 C CNN
+F 0 "R7" V 1900 5400 50  0000 C CNN
 F 1 "100K" V 2000 5400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 5400 30  0001 C CNN
 F 3 "" H 2000 5400 30  0000 C CNN
 	1    2000 5400
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Text Label 2150 5600 0    60   ~ 0
 BOOT0_P
@@ -1514,7 +1514,7 @@ F 1 "4.7K" V 15250 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 15180 6300 30  0001 C CNN
 F 3 "" H 15250 6300 30  0000 C CNN
 	1    15250 6300
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R20
@@ -1525,7 +1525,7 @@ F 1 "4.7K" V 15250 6500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 15180 6500 30  0001 C CNN
 F 3 "" H 15250 6500 30  0000 C CNN
 	1    15250 6500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R21
@@ -1536,7 +1536,7 @@ F 1 "4.7K" V 15250 6700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 15180 6700 30  0001 C CNN
 F 3 "" H 15250 6700 30  0000 C CNN
 	1    15250 6700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R22
@@ -1547,7 +1547,7 @@ F 1 "4.7K" V 15250 6900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 15180 6900 30  0001 C CNN
 F 3 "" H 15250 6900 30  0000 C CNN
 	1    15250 6900
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R24
@@ -2091,7 +2091,7 @@ $Comp
 L R R10
 U 1 1 56FFBA91
 P 7900 7250
-F 0 "R10" V 7980 7250 50  0000 C CNN
+F 0 "R10" V 7800 7250 50  0000 C CNN
 F 1 "100K" V 7900 7250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 7830 7250 30  0001 C CNN
 F 3 "" H 7900 7250 30  0000 C CNN
@@ -2118,7 +2118,7 @@ F 1 "100K" V 8500 7250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8430 7250 30  0001 C CNN
 F 3 "" H 8500 7250 30  0000 C CNN
 	1    8500 7250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_02X26 H1

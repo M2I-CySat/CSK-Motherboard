@@ -6,7 +6,7 @@ Effect of loss of 3v3 rail on pull-up resistors
 Split between power rails for pull-ups. Allow system critical pull-ups to work in case of 3v3 failure.
 LDO diodes, or just a way to do it (supervisor chip) - one 3v3 rail with two sources.
 Memory on 3v3 rail, failure of 3v3
-Buffers belonging to which rail.
+Buffers belonging to which rail - PMIC (power management IC)
 
 Decoupling at the end of the enable line for buffers
 Decoupling for I2C buffers

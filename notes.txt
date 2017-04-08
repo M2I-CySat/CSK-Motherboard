@@ -1,0 +1,27 @@
+Design Review Notes
+
+Power-on (ramp-up). Compare EPS specifications to brown-out limitations of STM32
+
+Effect of loss of 3v3 rail on pull-up resistors
+Split between power rails for pull-ups. Allow system critical pull-ups to work in case of 3v3 failure.
+LDO diodes, or just a way to do it (supervisor chip) - one 3v3 rail with two sources.
+Memory on 3v3 rail, failure of 3v3
+Buffers belonging to which rail.
+
+Decoupling at the end of the enable line for buffers
+Decoupling for I2C buffers
+
+Check EN logic on I2C buffers (active low?)
+Check logic levels on all the buffers anyway
+
+Pullup on unused pins (in software)
+
+Unused buffer needs to be tied to something
+
+74LS125 unpopulated tie-off resistors
+
+Snubbing network for off-board SPI (series resistor)
+
+Logic to make sure reset can't happen unless it's supposed to
+
+GPIO behavior while MCU is in reset

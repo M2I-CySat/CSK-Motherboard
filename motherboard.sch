@@ -2095,7 +2095,7 @@ F 1 "CONN_02X26" V 9150 9600 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x26" H 9150 8900 50  0001 C CNN
 F 3 "" H 9150 8900 50  0000 C CNN
 	1    9150 9600
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Notes 10800 8150 2    60   ~ 0
 H2
@@ -2942,10 +2942,6 @@ Text Label 8900 10450 2    60   ~ 0
 SYS_SCL
 Text Label 8900 10650 2    60   ~ 0
 NBUFEN_PRI
-Text Label 8900 10750 2    60   ~ 0
-I2C2_SDA
-Text Label 8900 10850 2    60   ~ 0
-I2C2_SCL
 Text Label 9400 10850 0    60   ~ 0
 SGPIO6
 Text Label 9400 10750 0    60   ~ 0
@@ -3578,4 +3574,6 @@ Wire Wire Line
 	14550 2950 14550 2800
 Wire Wire Line
 	14550 2400 14550 2500
+NoConn ~ 8900 10750
+NoConn ~ 8900 10850
 $EndSCHEMATC

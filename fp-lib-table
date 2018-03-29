@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name motherboard)(type KiCad)(uri "$(KIPRJMOD)\\motherboard.pretty")(options "")(descr ""))
+  (lib (name motherboard)(type KiCad)(uri "$(KIPRJMOD)/motherboard.pretty")(options "")(descr ""))
+  (lib (name AeroE294)(type KiCad)(uri /home/william/Documents/Classwork/AeroE294)(options "")(descr ""))
 )

@@ -1,12 +1,12 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 0)
+    (links 396)
     (no_connects 12)
     (area 112.954999 46.279999 203.275001 142.315001)
     (thickness 1.6)
     (drawings 25)
-    (tracks 4135)
+    (tracks 4133)
     (zones 0)
     (modules 110)
     (nets 171)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -29158,8 +29158,6 @@
   (segment (start 158.5214 49.9364) (end 158.496 49.911) (width 0.2794) (layer F.Cu) (net 2) (tstamp 5ABD22B7))
   (segment (start 148.4376 49.9364) (end 158.5214 49.9364) (width 0.2794) (layer F.Cu) (net 2) (tstamp 5ABD22B3))
   (segment (start 146.311427 47.810227) (end 148.4376 49.9364) (width 0.2794) (layer F.Cu) (net 2) (tstamp 5ABD22AF))
-  (segment (start 158.496 49.911) (end 158.496 49.8348) (width 0.2794) (layer F.Cu) (net 2) (tstamp 5ABD22B8))
-  (segment (start 158.496 49.8348) (end 158.496 49.911) (width 0.2794) (layer F.Cu) (net 2) (tstamp 5ABD22B9))
   (segment (start 117.475 59.796298) (end 117.475 67.056) (width 0.2794) (layer F.Cu) (net 2))
   (segment (start 117.475 56.266586) (end 116.903489 56.838097) (width 0.2794) (layer F.Cu) (net 2))
   (segment (start 137.1092 47.8028) (end 120.2944 47.8028) (width 0.2794) (layer F.Cu) (net 2) (tstamp 5ABD2291))

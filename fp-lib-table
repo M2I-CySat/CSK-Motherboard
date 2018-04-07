@@ -1,5 +1,4 @@
 (fp_lib_table
   (lib (name motherboard)(type KiCad)(uri "$(KIPRJMOD)/motherboard.pretty")(options "")(descr ""))
-  (lib (name AeroE294)(type KiCad)(uri /home/william/Documents/Classwork/AeroE294)(options "")(descr ""))
-  (lib (name FM25V20A-G)(type Legacy)(uri /home/william/Documents/Classwork/AeroE294/FM25V20A-G/KiCad/FM25V20A-G.mod)(options "")(descr ""))
+  (lib (name FM25V20A-G)(type Legacy)(uri "$(KIPRJMOD)\\footprints\\FM25V20A-G.mod")(options "")(descr ""))
 )

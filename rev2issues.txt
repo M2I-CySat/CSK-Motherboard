@@ -1,9 +1,12 @@
 Issues:
 Add restart button
 Add LED
-Add ground plane
 Add ground to case
 Fix driving of the reset lines directly by a 7400 chip
 NRST 1 and NRST 2 are currently pulled up and need to be pulled down
-Fix memory chip footprint
 MISO for mem spi doesnt have pull up or pull down
+
+
+Do we need to add vias?
+Change from 3.3 to gnd on Resistors 28 and adj
+Find stacking headers on digikey

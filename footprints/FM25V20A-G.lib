@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FM25V20A-G
+#/233229/28653/2.24/8/4/Integrated Circuit
+DEF FM25V20A-G IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "FM25V20A-G" 950 200 50 H V L CNN
+F2 "SOIC127P800X203-8N" 950 100 50 H I L CNN
+F3 "http://www.cypress.com/file/141396/download.pdf" 950 0 50 H I L CNN
+F4 "2-Mbit (256 K  8) Serial (SPI) F-RAM" 950 -100 50 H I L CNN "Description"
+F5 "2.03" 950 -200 50 H I L CNN "Height"
+F6 "Cypress Semiconductor" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FM25V20A-G" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1242990P" 950 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1242990P" 950 -600 50 H I L CNN "RS Price/Stock"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 B
+X SO 2 0 -100 200 R 50 50 0 0 B
+X ~WP 3 0 -200 200 R 50 50 0 0 B
+X VSS 4 0 -300 200 R 50 50 0 0 B
+X VDD 8 1100 0 200 L 50 50 0 0 B
+X ~HOLD 7 1100 -100 200 L 50 50 0 0 B
+X SCK 6 1100 -200 200 L 50 50 0 0 B
+X SI 5 1100 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP FM25V20A-G
-D 2-Mbit (256 K  8) Serial (SPI) F-RAM
-K
-F http://www.cypress.com/file/141396/download.pdf
-$ENDCMP
-#
-#End Doc Library

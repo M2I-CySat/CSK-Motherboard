@@ -2932,9 +2932,9 @@ Text Label 8900 9750 2    60   ~ 0
 SYS_RESET
 Text Label 8900 10050 2    60   ~ 0
 SGPIO9
-Text Label 8900 10150 2    60   ~ 0
+Text Label 8800 10150 2    60   ~ 0
 SGPIO11
-Text Label 8900 10250 2    60   ~ 0
+Text Label 8800 10250 2    60   ~ 0
 SGPIO13
 Text Label 8900 10350 2    60   ~ 0
 SYS_SDA
@@ -2944,7 +2944,7 @@ Text Label 8900 10650 2    60   ~ 0
 NBUFEN_PRI
 Text Label 9400 10850 0    60   ~ 0
 SGPIO6
-Text Label 9400 10750 0    60   ~ 0
+Text Label 9500 10750 0    60   ~ 0
 SGPIO5
 Text Label 9400 10650 0    60   ~ 0
 NBUFEN_SEC
@@ -2977,9 +2977,9 @@ NoConn ~ 9400 9550
 NoConn ~ 9400 9650
 NoConn ~ 9400 9750
 NoConn ~ 9400 9850
-Text Label 9400 10050 0    60   ~ 0
+Text Label 9500 10050 0    60   ~ 0
 SGPIO10
-Text Label 9400 10150 0    60   ~ 0
+Text Label 9500 10150 0    60   ~ 0
 SGPIO12
 Text Label 10500 8350 2    60   ~ 0
 SGPIO0
@@ -2987,7 +2987,7 @@ Text Label 10500 8450 2    60   ~ 0
 SGPIO2
 Text Label 10500 8550 2    60   ~ 0
 I2C3_SDA
-Text Label 10500 8650 2    60   ~ 0
+Text Label 10400 8650 2    60   ~ 0
 SGPIO4
 NoConn ~ 10500 8850
 NoConn ~ 10500 8950
@@ -3140,7 +3140,7 @@ Wire Wire Line
 	11000 9850 11050 9850
 Text Label 11000 8350 0    60   ~ 0
 SGPIO1
-Text Label 11000 8450 0    60   ~ 0
+Text Label 11100 8450 0    60   ~ 0
 SGPIO3
 Text Label 11000 8550 0    60   ~ 0
 I2C3_SCL
@@ -3565,4 +3565,16 @@ Wire Wire Line
 	15800 2800 15800 2950
 Wire Wire Line
 	1450 5350 1450 6000
+NoConn ~ 9500 10050
+NoConn ~ 9400 10050
+NoConn ~ 9400 10150
+NoConn ~ 9500 10150
+NoConn ~ 8800 10150
+NoConn ~ 8900 10150
+NoConn ~ 8800 10250
+NoConn ~ 8900 10250
+NoConn ~ 9400 10750
+NoConn ~ 9500 10750
+NoConn ~ 11000 8450
+NoConn ~ 11100 8450
 $EndSCHEMATC

@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 387)
     (no_connects 0)
-    (area 112.954999 46.279999 203.275001 142.315001)
+    (area -7.130181 -3.4928 205.250181 142.315001)
     (thickness 1.6)
     (drawings 25)
     (tracks 4536)
@@ -767,7 +767,7 @@
     )
   )
 
-  (module Hole_0.125-0.250 (layer F.Cu) (tedit 5AC96CB2) (tstamp 5AC96CD6)
+  (module Hole_0.125-0.250 (layer F.Cu) (tedit 5ACBDC0B) (tstamp 5AC96CD6)
     (at 0 0)
     (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -775,7 +775,6 @@
     (fp_text value Hole_0.125-0.250 (at 0 -2.54) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.35 6.35) (drill 3.175) (layers *.Cu *.Mask))
   )
 
   (module Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm (layer F.Cu) (tedit 58CC8F64) (tstamp 5AC961C7)
@@ -28749,7 +28748,7 @@
     (effects (font (size 2 1.5) (thickness 0.3)))
   )
   (gr_line (start 113.03 84.201) (end 114.935 84.201) (layer Edge.Cuts) (width 0.15))
-  (gr_text "REV 001b" (at 196.596 62.103 90) (layer F.SilkS)
+  (gr_text "REV 002" (at 196.596 62.103 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 149.098 46.355) (end 149.098 49.276) (layer Edge.Cuts) (width 0.15))
@@ -33313,7 +33312,7 @@
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5AC91DD0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 148.7932 49.4792) (xy 169.7228 49.4792) (xy 169.7228 46.6344) (xy 198.374 46.6344) (xy 198.374 69.6976)

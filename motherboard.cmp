@@ -1,0 +1,891 @@
+Cmp-Mod V01 Created by PcbNew   date = Sun Jul  1 18:35:38 2018
+
+BeginCmp
+TimeStamp = 583F5CE6
+Path = /56F0C346
+Reference = U12;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5C55
+Path = /56AD4009
+Reference = U2;
+ValeurCmp = STM32F411-LQFP64;
+IdModule  = Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D34
+Path = /56F1CE46
+Reference = U17;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AC96CD6
+Path = 
+Reference = REF**;
+ValeurCmp = Hole_0.125-0.250;
+IdModule  = Hole_0.125-0.250;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AC961C7
+Path = /56CE84D8
+Reference = U9;
+ValeurCmp = FM25V20A-G;
+IdModule  = Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D10
+Path = /56EF0DC8
+Reference = U15;
+ValeurCmp = PCA9517A;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D04
+Path = /56ECED88
+Reference = U14;
+ValeurCmp = PCA9517A;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5CC2
+Path = /56F0C429
+Reference = U10;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5BFE
+Path = /56AD3D2B
+Reference = U1;
+ValeurCmp = STM32F411-LQFP64;
+IdModule  = Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4FEB
+Path = /56F02811
+Reference = R22;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C41
+Path = /56E72504
+Reference = C9;
+ValeurCmp = 20pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5893ED14
+Path = /58940E78
+Reference = TP15;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D3C
+Path = /56E6E5D4
+Reference = Y1;
+ValeurCmp = 32k;
+IdModule  = motherboard:SOJ-4_5.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D31
+Path = /56E9EB0C
+Reference = C24;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4BC1
+Path = /56E7AF5F
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4BD1
+Path = /56E62C19
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4BE1
+Path = /56E8A924
+Reference = C3;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4BF1
+Path = /56E62C13
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C01
+Path = /56E62C0D
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C11
+Path = /56E6E9F9
+Reference = C6;
+ValeurCmp = 4.3pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C21
+Path = /56E6E927
+Reference = C7;
+ValeurCmp = 4.3pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C31
+Path = /56E62C07
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C51
+Path = /56E724FE
+Reference = C10;
+ValeurCmp = 20pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C61
+Path = /56E5E8C4
+Reference = C11;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C71
+Path = /56E5E997
+Reference = C12;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C81
+Path = /56E7C99D
+Reference = C13;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4C91
+Path = /56E610E4
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4CA1
+Path = /56E8DA8B
+Reference = C15;
+ValeurCmp = 4.7uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4CB1
+Path = /56E61034
+Reference = C16;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4CC1
+Path = /56E60F7F
+Reference = C17;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4CD1
+Path = /56E73173
+Reference = C18;
+ValeurCmp = 4.3pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4CE1
+Path = /56E7316D
+Reference = C19;
+ValeurCmp = 4.3pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4CF1
+Path = /56E60C82
+Reference = C20;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D01
+Path = /56E7318F
+Reference = C21;
+ValeurCmp = 20pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D11
+Path = /56E73189
+Reference = C22;
+ValeurCmp = 20pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D21
+Path = /56E9E6B8
+Reference = C23;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D41
+Path = /56E9EC21
+Reference = C25;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D51
+Path = /56E9F741
+Reference = C26;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D57
+Path = /56E8301A
+Reference = L1;
+ValeurCmp = BEAD;
+IdModule  = Choke_SMD:Choke_SMD_1206_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4D5D
+Path = /56E844BD
+Reference = L2;
+ValeurCmp = BEAD;
+IdModule  = Choke_SMD:Choke_SMD_1206_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4E9B
+Path = /56E68CF4
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4EAB
+Path = /56E8083F
+Reference = R2;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4EBB
+Path = /56E68617
+Reference = R3;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4ECB
+Path = /56E810EF
+Reference = R4;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4EDB
+Path = /56E90FC9
+Reference = R5;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4EEB
+Path = /56E90FCF
+Reference = R6;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4EFB
+Path = /56E690F6
+Reference = R7;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F0B
+Path = /56E68F3A
+Reference = R8;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F1B
+Path = /56F150F6
+Reference = R9;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F2B
+Path = /56FFBA91
+Reference = R10;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F3B
+Path = /56EA747D
+Reference = R11;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F4B
+Path = /56EA8D11
+Reference = R12;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F5B
+Path = /56EA9423
+Reference = R13;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F6B
+Path = /56EA981F
+Reference = R14;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F7B
+Path = /56FFDE3F
+Reference = R15;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F8B
+Path = /56B92804
+Reference = R16;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4F9B
+Path = /56B9204C
+Reference = R17;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4FBB
+Path = /56F0027E
+Reference = R19;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4FCB
+Path = /56F02560
+Reference = R20;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4FDB
+Path = /56F026B3
+Reference = R21;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F4FFB
+Path = /56F02A40
+Reference = R23;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F500B
+Path = /56F02C10
+Reference = R24;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B66
+Path = /56EB6C04
+Reference = TP1;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B6B
+Path = /56EB6F5E
+Reference = TP2;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B70
+Path = /56F27242
+Reference = TP3;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B75
+Path = /56F75354
+Reference = TP4;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B7A
+Path = /56EB7FC6
+Reference = TP5;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B7F
+Path = /56EB7FCC
+Reference = TP6;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B84
+Path = /56EADFFD
+Reference = TP7;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B89
+Path = /56EAE7F4
+Reference = TP8;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B8E
+Path = /56EAE90D
+Reference = TP9;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B93
+Path = /56EAEA25
+Reference = TP10;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B98
+Path = /56EAEB99
+Reference = TP11;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5B9D
+Path = /56EAECB7
+Reference = TP12;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5BA2
+Path = /56EAEDD8
+Reference = TP13;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5BA7
+Path = /56EAEF00
+Reference = TP14;
+ValeurCmp = TP;
+IdModule  = motherboard:TP_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5C5C
+Path = /56ED2D40
+Reference = U3;
+ValeurCmp = AP7313;
+IdModule  = TO_SOT_Packages_SMD:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5C6E
+Path = /5840C31C
+Reference = U4;
+ValeurCmp = 74LS00;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5C80
+Path = /56F0BFD2
+Reference = U5;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5CD4
+Path = /56F0C25F
+Reference = U11;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5CF8
+Path = /56F0DD9C
+Reference = U13;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D22
+Path = /56F38629
+Reference = U16;
+ValeurCmp = 74LS125;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D44
+Path = /56E724F2
+Reference = Y2;
+ValeurCmp = 8M(16pF);
+IdModule  = motherboard:SOJ-4_9.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D4C
+Path = /56E73161
+Reference = Y3;
+ValeurCmp = 32k;
+IdModule  = motherboard:SOJ-4_5.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 583F5D54
+Path = /56E73183
+Reference = Y4;
+ValeurCmp = 8M(16pF);
+IdModule  = motherboard:SOJ-4_9.4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58435937
+Path = /584332AB
+Reference = P1;
+ValeurCmp = CONN_02X08;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA94E
+Path = /5904743D
+Reference = C27;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA954
+Path = /59047641
+Reference = C28;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA95A
+Path = /5904FA74
+Reference = C29;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA960
+Path = /590581EA
+Reference = C30;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA966
+Path = /58FBD562
+Reference = C31;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA96C
+Path = /58FB9EA9
+Reference = C32;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA972
+Path = /59052AFF
+Reference = C33;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA978
+Path = /58FDD0DA
+Reference = R18;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA97E
+Path = /58FF6AE5
+Reference = R25;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA984
+Path = /58FF6C71
+Reference = R26;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA98A
+Path = /58FF6DFC
+Reference = R27;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA990
+Path = /5905BA82
+Reference = R28;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FBA996
+Path = /5905C088
+Reference = R29;
+ValeurCmp = 100K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FFFB2A
+Path = /59001434
+Reference = C34;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58FFFB30
+Path = /590038A5
+Reference = C35;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BC36AD
+Path = /581EA932
+Reference = H1;
+ValeurCmp = CONN_02X26;
+IdModule  = motherboard:CSK_Header;
+EndCmp
+
+BeginCmp
+TimeStamp = 59BC36E5
+Path = /581EB706
+Reference = H2;
+ValeurCmp = CONN_02X26;
+IdModule  = motherboard:CSK_Header;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ABEDF99
+Path = 
+Reference = LOGO;
+ValeurCmp = [NoVal];
+IdModule  = AeroE294:LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AC95F61
+Path = /56CE8587
+Reference = U6;
+ValeurCmp = FM25V20A-G;
+IdModule  = Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AC95F6D
+Path = /56CE825D
+Reference = U7;
+ValeurCmp = FM25V20A-G;
+IdModule  = Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AC95F79
+Path = /56CE840E
+Reference = U8;
+ValeurCmp = FM25V20A-G;
+IdModule  = Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58431C74
+Path = 
+Reference = REF**;
+ValeurCmp = Hole_0.125-0.250;
+IdModule  = motherboard:Hole_0.125-0.250;
+EndCmp
+
+BeginCmp
+TimeStamp = 58431C68
+Path = 
+Reference = REF**;
+ValeurCmp = Hole_0.125-0.250;
+IdModule  = motherboard:Hole_0.125-0.250;
+EndCmp
+
+BeginCmp
+TimeStamp = 58431C4C
+Path = 
+Reference = REF**;
+ValeurCmp = Hole_0.125-0.250;
+IdModule  = motherboard:Hole_0.125-0.250;
+EndCmp
+
+BeginCmp
+TimeStamp = 58431C47
+Path = 
+Reference = REF**;
+ValeurCmp = Hole_0.125-0.250;
+IdModule  = motherboard:Hole_0.125-0.250;
+EndCmp
+
+EndListe
